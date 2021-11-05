@@ -6,9 +6,9 @@ const PORT = 8080;
 //CONSIGNA Nº 1
 //Ruta get '/productos' que devuelva un array con todos los productos disponibles en el servidor
 
-// let data = fs.readFileSync('./productos.txt');
+let data = fs.readFileSync('./productos.txt');
 
-// let productos = JSON.parse(data);
+let productos = JSON.parse(data);
 let cantidad = productos.length;
 
 //CONSIGNA Nº 2
@@ -31,7 +31,7 @@ app.get('/', (req,res)=>{
 app.get('/productos', (req,res)=>{
     //CONSIGNA Nº 1
     //Ruta get '/productos' que devuelva un array con todos los productos disponibles en el servidor
-    // res.send({ productos }), utilizando la clase Constructor de la clase anterior
+    // res.send({ productos }),para este ejercicio utilizaré la clase Constructor de la clase anterior
     class Constructor {
         constructor(archivo) {
             this.archivo = archivo;
