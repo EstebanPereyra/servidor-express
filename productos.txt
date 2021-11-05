@@ -1,0 +1,20 @@
+[
+	{
+		"title": "camisa",
+		"price": 2000,
+		"thumbnail": "https://www.fundacioncnse.org/educa/bancolse/ropa/descargas/camisa-dibujo2.jpg",
+		"id": 1
+	},
+	{
+		"title": "pantalon",
+		"price": 1000,
+		"thumbnail": "https://d368r8jqz0fwvm.cloudfront.net/26112-product_lg/pantalon-de-hombre-sherpa-desmontable.jpg",
+		"id": 2
+	},
+	{
+		"title": "Zapato",
+		"price": 2500,
+		"thumbnail": "https://static.dafiti.com.ar/p/stork-man-0826-648933-1-zoom.jpg",
+		"id": 3
+	}
+]
